@@ -7,7 +7,7 @@ const Header = () => {
         
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-                <Link class="navbar-brand" to={'/'}>USERAPP </Link>
+                <Link class="navbar-brand" to={'/view'}>USERAPP </Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -16,6 +16,7 @@ const Header = () => {
                     <Link class="nav-link active" to='/'>ADD USER</Link>
                     <Link class="nav-link active" to='/search' >SEARCH USER</Link>
                     <Link class="nav-link active" to='/view' >VIEW USER</Link>
+                    <Link class="nav-link active" to='/todo' >VIEW USER</Link>
                 </div>
                 </div>
             </div>
