@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/'exact element={<Adduser/>}/>
-          <Route path='/'exact element={<Search/>}/>
+          <Route path='/search'exact element={<Search/>}/>
         </Routes>                                                                                   
       </BrowserRouter>
     </>
