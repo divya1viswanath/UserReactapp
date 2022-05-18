@@ -6,6 +6,7 @@ import Adduser from './component/Adduser';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Search from './component/Search';
 import Viewuser from './component/Viewuser';
+import Todo from './component/Todo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/'exact element={<Adduser/>}/>
           <Route path='/search'exact element={<Search/>}/>
           <Route path='/view'exact element={<Viewuser/>}/>
+          <Route path='/todo'exact element={<Todo/>}/>
         </Routes>                                                                                   
       </BrowserRouter>
     </>
